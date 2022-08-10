@@ -1,0 +1,26 @@
+#ifndef MINEFIELD_H
+#define MINEFIELD_H
+
+
+class MineField
+{
+public:
+    MineField(int numOfMines);
+private:
+    class Tile{
+    public:
+        enum class State{
+            Hidden,
+            Flagged,
+            Revealed
+        };
+    private:
+        State state=State::Hidden;
+        bool hasBomb=false;
+    };
+    const int width=30;
+    const int height=16;
+    Tile field[width*height];
+};
+
+#endif // MINEFIELD_H

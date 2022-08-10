@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/minesweeperlogo.jpg</file>
+        <file>img/gameBottons.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>img/revealed.png</file>
+        <file>img/1.png</file>
+        <file>img/8.png</file>
+        <file>img/2.png</file>
+        <file>img/3.png</file>
+        <file>img/4.png</file>
+        <file>img/5.png</file>
+        <file>img/6.png</file>
+        <file>img/7.png</file>
+        <file>img/bomb.png</file>
+        <file>img/flag.png</file>
+        <file>img/wrongflagged.png</file>
+    </qresource>
+</RCC>
