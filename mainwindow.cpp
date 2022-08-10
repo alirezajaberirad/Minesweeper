@@ -21,8 +21,6 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    //time=2;
-    //check=true;
 
     QPixmap pix(":/img/img/minesweeperlogo.jpg");
     int w=ui->labelPic->width();
@@ -38,14 +36,6 @@ MainWindow::~MainWindow()
 
 }
 
-/*void MainWindow::myFunction(bool check)
-{
-    if(check){
-        time++;
-        ui->label->setNum(time);
-    }
-    else time=0;
-}*/
 
 
 void MainWindow::on_pushButton_clicked()
@@ -77,14 +67,6 @@ void MainWindow::on_pushButton_clicked()
 
     MainWindow::tableMaker(width,height);
     MainWindow::resize(width*cellSize,height*(cellSize+4));
-    //Game();
-   // MainWindow::myFunction(check);
-   // stack<int> playerGamingRecord;//this will save the history of the player achieved points
-   // QTextStream stream(&inFile);
-   // QFile inFile("playerInfo.txt");
-   // inFile.open(QIODevice::WriteOnly);
-   // stream<<playerName<<endl;
-   // inFile.flush();
 }
 
 void MainWindow::pushButtonLander(int x, int y)
