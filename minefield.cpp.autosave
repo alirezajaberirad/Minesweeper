@@ -1,6 +1,0 @@
-#include "minefield.h"
-
-MineField::MineField()
-{
-
-}
