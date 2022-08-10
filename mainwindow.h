@@ -7,7 +7,6 @@
 #include<QtWidgets>
 #include<vector>
 #include "CustomizedPushButton.h"
-//#include "game.h"
 
 namespace Ui {
 class MainWindow;
