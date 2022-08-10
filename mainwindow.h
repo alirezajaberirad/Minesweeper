@@ -33,9 +33,6 @@ public:
         bool endgame=false;
 
 public slots:
-    //QPushButton*clickedButton=(QPushButton*)sender();
-    //void on_tableWidget_cellActivated(int row, int column);
-    //void myFunction(bool check);
     void on_pushButton_clicked();
 //signals:
 private slots:
@@ -75,9 +72,6 @@ private:
     int NumOfRevealedTiles;
     int NumOfBombs=100;
     void timer(QLabel*lbl);
-    //QTimer *timer;
-    //bool check;
-    //int time;
 };
 
 #endif // MAINWINDOW_H
